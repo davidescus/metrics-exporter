@@ -1,0 +1,13 @@
+[Unit]
+Description=Metrics Exporter
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=metrics-exporter
+Group=metrics-exporter
+Type=simple
+ExecStart=/usr/local/bin/metrics-exporter
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+# port that will be used for listen
+port: 8585
+
+# interval in seconds that will be used for metric collection
+collectInterval: 3
+
+# time to live for internal stored metrics
+timeToLive: 30
+
+# path to storage
+storagePath: "/var/lib/metrics-exporter/metrics-exporter.db"
