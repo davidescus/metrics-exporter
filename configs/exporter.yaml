@@ -1,0 +1,11 @@
+# port for web server
+port: 8080
+# scraping interval in seconds
+scrapeInterval: 3
+# maximum duration for for a running collection process
+# kill after exceed time
+maxProcessCollectDuration: 2
+# maximum amount of data to store
+# will truncate old values
+# value have to be in bytes
+maxAmountOfDataToStore: 1000000
